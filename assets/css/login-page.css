@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 20px;
+    font-family: lato;
+    background-image: linear-gradient(rgb(0, 7, 35, 0.7), rgb(0, 7, 35, 0.7)), url(../images/signinbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1040px;
+    height: 692px;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Zen Dots', cursive;
+}
+
+.container {
+    display: flex;
+    margin: 35px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: skyblue;
+    color: white;
+
+
+}
+
+.first {
+    border: 2px solid black;
+    width: 400px;
+    margin: 35px;
+    margin-left: 525px;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+.first h3 {
+    margin: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#name {
+    height: 20px;
+    border-radius: 5px;
+}
+
+#password {
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.line {
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+    background-color: grey;
+    height: .5px;
+    width: 300px;
+
+}
+
+.line span {
+    background-color: white;
+    position: relative;
+    left: 130px;
+    bottom: 10px;
+    border: 2px solid lightslategray;
+    border-radius: 6px;
+}
+
+button {
+    margin-left: 60px;
+    margin-bottom: 50px;
+    background-color: palevioletred;
+    width: 250px;
+    height: 45px;
+    margin-top: 5px;
+    font-size: 15px;
+    border-radius: 7px;
+    margin-top: 10px;
+    color: white;
+}
+
+.last {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+}
+
+.goo a {
+    display: flex;
+    margin-left: 60px;
+}
+
+.fb a {
+    display: flex;
+    margin-right: 80px;
+}
